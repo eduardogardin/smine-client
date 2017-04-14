@@ -1,19 +1,35 @@
 <template>
-  <div class="col-sm-6 col-sm-offset-3">
-    <h1>Apontamentos de hora!</h1>
-    <button class="btn btn-primary" v-on:click="getTimeEntries()">
-     Get time entries!
-    </button>
+  <md-layout md-gutter>
+    <md-layout md-flex="30" md-flex-offset="25">
+      <md-card>
+        <md-card-area>
+          <md-card-header>
+            <div class="md-title">Daily time entries</div>
+            <div class="md-subhead">Here you'll be able to know who is registering your spent time</div>
+          </md-card-header>
+        </md-card-area>
 
-    <ul>
-      <li v-for="entry in entries">
-        Usuário: {{ entry.user.name }}
-        Data:    {{ entry.spent_on }}
-        Tempo:   {{ entry.hours }}
-        Ticket:  #{{ entry.issue.id }}
-      </li>
-    </ul>
-  </div>
+        <md-card-actions>
+          <md-button>Get Entries!</md-button>
+        </md-card-actions>
+      </md-card>
+    </md-layout>
+
+    <md-layout md-flex="30">
+      <md-card>
+        <md-card-area>
+          <md-card-header>
+            <div class="md-title">Daily time entries</div>
+            <div class="md-subhead">Here you'll be able to know who is registering your spent time</div>
+          </md-card-header>
+        </md-card-area>
+
+        <md-card-actions>
+          <md-button>Get Entries!</md-button>
+        </md-card-actions>
+      </md-card>
+    </md-layout>
+  </md-layout>
 </template>
 
 <script>
