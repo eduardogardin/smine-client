@@ -10,7 +10,9 @@
         </md-card-area>
 
         <md-card-actions>
-          <md-button>Get Entries!</md-button>
+          <md-button>
+            <router-link to="/timeentries">Get entries</router-link>
+          </md-button>
         </md-card-actions>
       </md-card>
     </md-layout>
@@ -31,29 +33,3 @@
     </md-layout>
   </md-layout>
 </template>
-
-<script>
-  export default {
-    data () {
-      return {
-        entries: ''
-      }
-    },
-    methods: {
-      getTimeEntries () {
-        const successCallback = response => {
-          this.entries = response.body.time_entries
-        }
-
-        const errorCallback = err => {
-          console.log(err)
-        }
-
-        this.$http
-        .get('static/stub/time_entries.json')
-        .then(successCallback, errorCallback)
-      }
-    }
-  }
-</script>
-
