@@ -1,0 +1,513 @@
+{
+  "time_entries": [
+    {
+      "id": 241224,
+      "project": {
+        "id": 904,
+        "name": "Sample Project 1"
+      },
+      "issue": {
+        "id": 151484
+      },
+      "user": {
+        "id": 853,
+        "name": "John"
+      },
+      "activity": {
+        "id": 9,
+        "name": "Development"
+      },
+      "hours": 8.5,
+      "comments": "",
+      "spent_on": "2017-04-13",
+      "created_on": "2017-04-13T19:26:45Z",
+      "updated_on": "2017-04-13T19:26:45Z"
+    },
+    {
+      "id": 241219,
+      "project": {
+        "id": 904,
+        "name": "Sample Project 1"
+      },
+      "issue": {
+        "id": 151608
+      },
+      "user": {
+        "id": 21,
+        "name": "Mike"
+      },
+      "activity": {
+        "id": 9,
+        "name": "Development"
+      },
+      "hours": 8,
+      "comments": "",
+      "spent_on": "2017-04-13",
+      "created_on": "2017-04-13T19:25:13Z",
+      "updated_on": "2017-04-13T19:25:13Z"
+    },
+    {
+      "id": 241217,
+      "project": {
+        "id": 1212,
+        "name": "Sample project 2"
+      },
+      "issue": {
+        "id": 151179
+      },
+      "user": {
+        "id": 1504,
+        "name": "Carl"
+      },
+      "activity": {
+        "id": 9,
+        "name": "Development"
+      },
+      "hours": 0.5,
+      "comments": "",
+      "spent_on": "2017-04-13",
+      "created_on": "2017-04-13T19:17:20Z",
+      "updated_on": "2017-04-13T19:17:20Z"
+    },
+    {
+      "id": 241211,
+      "project": {
+        "id": 904,
+        "name": "Sample Project 1"
+      },
+      "issue": {
+        "id": 151608
+      },
+      "user": {
+        "id": 891,
+        "name": "Simon"
+      },
+      "activity": {
+        "id": 9,
+        "name": "Development"
+      },
+      "hours": 6,
+      "comments": "",
+      "spent_on": "2017-04-13",
+      "created_on": "2017-04-13T19:10:56Z",
+      "updated_on": "2017-04-13T19:10:56Z"
+    },
+    {
+      "id": 241223,
+      "project": {
+        "id": 904,
+        "name": "Sample Project 1"
+      },
+      "issue": {
+        "id": 151484
+      },
+      "user": {
+        "id": 853,
+        "name": "John"
+      },
+      "activity": {
+        "id": 9,
+        "name": "Development"
+      },
+      "hours": 8.5,
+      "comments": "",
+      "spent_on": "2017-04-12",
+      "created_on": "2017-04-13T19:26:31Z",
+      "updated_on": "2017-04-13T19:26:31Z"
+    },
+    {
+      "id": 241218,
+      "project": {
+        "id": 904,
+        "name": "Sample Project 1"
+      },
+      "issue": {
+        "id": 151608
+      },
+      "user": {
+        "id": 21,
+        "name": "Mike"
+      },
+      "activity": {
+        "id": 9,
+        "name": "Development"
+      },
+      "hours": 8,
+      "comments": "",
+      "spent_on": "2017-04-12",
+      "created_on": "2017-04-13T19:25:06Z",
+      "updated_on": "2017-04-13T19:25:06Z"
+    },
+    {
+      "id": 241213,
+      "project": {
+        "id": 904,
+        "name": "Sample Project 1"
+      },
+      "issue": {
+        "id": 150743
+      },
+      "user": {
+        "id": 891,
+        "name": "Simon"
+      },
+      "activity": {
+        "id": 9,
+        "name": "Development"
+      },
+      "hours": 2,
+      "comments": "",
+      "spent_on": "2017-04-12",
+      "created_on": "2017-04-13T19:11:39Z",
+      "updated_on": "2017-04-13T19:11:39Z"
+    },
+    {
+      "id": 241212,
+      "project": {
+        "id": 904,
+        "name": "Sample Project 1"
+      },
+      "issue": {
+        "id": 151608
+      },
+      "user": {
+        "id": 891,
+        "name": "Simon"
+      },
+      "activity": {
+        "id": 9,
+        "name": "Development"
+      },
+      "hours": 6,
+      "comments": "",
+      "spent_on": "2017-04-12",
+      "created_on": "2017-04-13T19:11:09Z",
+      "updated_on": "2017-04-13T19:11:09Z"
+    },
+    {
+      "id": 241104,
+      "project": {
+        "id": 1254,
+        "name": "Sample project 3"
+      },
+      "issue": {
+        "id": 151933
+      },
+      "user": {
+        "id": 4,
+        "name": "John"
+      },
+      "activity": {
+        "id": 9,
+        "name": "Development"
+      },
+      "hours": 4,
+      "comments": "",
+      "spent_on": "2017-04-12",
+      "created_on": "2017-04-13T13:40:03Z",
+      "updated_on": "2017-04-13T13:40:03Z"
+    },
+    {
+      "id": 240940,
+      "project": {
+        "id": 1222,
+        "name": "Sample project 5"
+      },
+      "issue": {
+        "id": 152284
+      },
+      "user": {
+        "id": 962,
+        "name": "Edward"
+      },
+      "activity": {
+        "id": 9,
+        "name": "Development"
+      },
+      "hours": 6,
+      "comments": "",
+      "spent_on": "2017-04-12",
+      "created_on": "2017-04-12T18:18:02Z",
+      "updated_on": "2017-04-12T18:18:02Z"
+    },
+    {
+      "id": 240893,
+      "project": {
+        "id": 1254,
+        "name": "Sample project 3"
+      },
+      "issue": {
+        "id": 151939
+      },
+      "user": {
+        "id": 4,
+        "name": "John"
+      },
+      "activity": {
+        "id": 9,
+        "name": "Development"
+      },
+      "hours": 4,
+      "comments": "",
+      "spent_on": "2017-04-12",
+      "created_on": "2017-04-12T15:12:07Z",
+      "updated_on": "2017-04-12T15:12:07Z"
+    },
+    {
+      "id": 241222,
+      "project": {
+        "id": 904,
+        "name": "Sample Project 1"
+      },
+      "issue": {
+        "id": 151484
+      },
+      "user": {
+        "id": 853,
+        "name": "John"
+      },
+      "activity": {
+        "id": 9,
+        "name": "Development"
+      },
+      "hours": 9.25,
+      "comments": "",
+      "spent_on": "2017-04-11",
+      "created_on": "2017-04-13T19:26:18Z",
+      "updated_on": "2017-04-13T19:26:18Z"
+    },
+    {
+      "id": 240939,
+      "project": {
+        "id": 1222,
+        "name": "Sample project 5"
+      },
+      "issue": {
+        "id": 152284
+      },
+      "user": {
+        "id": 962,
+        "name": "Edward"
+      },
+      "activity": {
+        "id": 9,
+        "name": "Development"
+      },
+      "hours": 6,
+      "comments": "",
+      "spent_on": "2017-04-11",
+      "created_on": "2017-04-12T18:17:56Z",
+      "updated_on": "2017-04-12T18:17:56Z"
+    },
+    {
+      "id": 240865,
+      "project": {
+        "id": 1210,
+        "name": "Sample project 99"
+      },
+      "issue": {
+        "id": 151898
+      },
+      "user": {
+        "id": 98,
+        "name": "Angry man"
+      },
+      "activity": {
+        "id": 9,
+        "name": "Development"
+      },
+      "hours": 4,
+      "comments": "",
+      "spent_on": "2017-04-11",
+      "created_on": "2017-04-12T13:49:19Z",
+      "updated_on": "2017-04-12T13:49:19Z"
+    },
+    {
+      "id": 240772,
+      "project": {
+        "id": 1254,
+        "name": "Sample project 3"
+      },
+      "issue": {
+        "id": 151939
+      },
+      "user": {
+        "id": 4,
+        "name": "John"
+      },
+      "activity": {
+        "id": 9,
+        "name": "Development"
+      },
+      "hours": 4.5,
+      "comments": "",
+      "spent_on": "2017-04-11",
+      "created_on": "2017-04-12T11:11:40Z",
+      "updated_on": "2017-04-12T11:11:40Z"
+    },
+    {
+      "id": 240552,
+      "project": {
+        "id": 904,
+        "name": "Sample Project 1"
+      },
+      "issue": {
+        "id": 150743
+      },
+      "user": {
+        "id": 891,
+        "name": "Simon"
+      },
+      "activity": {
+        "id": 9,
+        "name": "Development"
+      },
+      "hours": 5,
+      "comments": "",
+      "spent_on": "2017-04-11",
+      "created_on": "2017-04-11T17:43:47Z",
+      "updated_on": "2017-04-11T17:43:47Z"
+    },
+    {
+      "id": 240549,
+      "project": {
+        "id": 1254,
+        "name": "Sample project 3"
+      },
+      "issue": {
+        "id": 150534
+      },
+      "user": {
+        "id": 4,
+        "name": "John"
+      },
+      "activity": {
+        "id": 9,
+        "name": "Development"
+      },
+      "hours": 1.5,
+      "comments": "",
+      "spent_on": "2017-04-11",
+      "created_on": "2017-04-11T17:33:24Z",
+      "updated_on": "2017-04-11T17:33:24Z"
+    },
+    {
+      "id": 240551,
+      "project": {
+        "id": 904,
+        "name": "Sample Project 1"
+      },
+      "issue": {
+        "id": 150743
+      },
+      "user": {
+        "id": 891,
+        "name": "Simon"
+      },
+      "activity": {
+        "id": 9,
+        "name": "Development"
+      },
+      "hours": 5,
+      "comments": "",
+      "spent_on": "2017-04-10",
+      "created_on": "2017-04-11T17:43:22Z",
+      "updated_on": "2017-04-11T17:43:33Z"
+    },
+    {
+      "id": 240502,
+      "project": {
+        "id": 1254,
+        "name": "Sample project 3"
+      },
+      "issue": {
+        "id": 151477
+      },
+      "user": {
+        "id": 1504,
+        "name": "Carl"
+      },
+      "activity": {
+        "id": 9,
+        "name": "Development"
+      },
+      "hours": 3,
+      "comments": "",
+      "spent_on": "2017-04-10",
+      "created_on": "2017-04-11T14:28:42Z",
+      "updated_on": "2017-04-11T14:28:42Z"
+    },
+    {
+      "id": 240400,
+      "project": {
+        "id": 1254,
+        "name": "Sample project 3"
+      },
+      "issue": {
+        "id": 150534
+      },
+      "user": {
+        "id": 4,
+        "name": "John"
+      },
+      "activity": {
+        "id": 9,
+        "name": "Development"
+      },
+      "hours": 2.8,
+      "comments": "",
+      "spent_on": "2017-04-10",
+      "created_on": "2017-04-10T20:50:22Z",
+      "updated_on": "2017-04-10T20:50:22Z"
+    },
+    {
+      "id": 241221,
+      "project": {
+        "id": 904,
+        "name": "Sample Project 1"
+      },
+      "issue": {
+        "id": 151484
+      },
+      "user": {
+        "id": 853,
+        "name": "John"
+      },
+      "activity": {
+        "id": 9,
+        "name": "Development"
+      },
+      "hours": 8,
+      "comments": "",
+      "spent_on": "2017-04-07",
+      "created_on": "2017-04-13T19:26:03Z",
+      "updated_on": "2017-04-13T19:26:03Z"
+    },
+    {
+      "id": 240069,
+      "project": {
+        "id": 1254,
+        "name": "Sample project 3"
+      },
+      "issue": {
+        "id": 150534
+      },
+      "user": {
+        "id": 4,
+        "name": "John"
+      },
+      "activity": {
+        "id": 9,
+        "name": "Development"
+      },
+      "hours": 5,
+      "comments": "",
+      "spent_on": "2017-04-07",
+      "created_on": "2017-04-07T20:22:55Z",
+      "updated_on": "2017-04-07T20:22:55Z"
+    }
+  ],
+  "total_count": 1743,
+  "offset": 0,
+  "limit": 25
+}
