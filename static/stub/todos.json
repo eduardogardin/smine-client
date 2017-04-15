@@ -1,0 +1,81 @@
+{
+  "issues": [
+    {
+      "id": 152443,
+      "project": {
+        "id": 1217,
+        "name": "Project 1"
+      },
+      "tracker": {
+        "id": 9,
+        "name": "Story"
+      },
+      "status": {
+        "id": 1,
+        "name": "New"
+      },
+      "priority": {
+        "id": 1,
+        "name": "Low"
+      },
+      "author": {
+        "id": 102,
+        "name": "Mike"
+      },
+      "assigned_to": {
+        "id": 1458,
+        "name": "Edward"
+      },
+      "fixed_version": {
+        "id": 1257,
+        "name": "Backlog"
+      },
+      "subject": "Lorem Ipsum",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+      "start_date": "2017-04-13",
+      "done_ratio": 0,
+      "created_on": "2017-04-13T20:32:40Z",
+      "updated_on": "2017-04-13T20:32:40Z"
+    },
+    {
+      "id": 152444,
+      "project": {
+        "id": 1217,
+        "name": "Project 2"
+      },
+      "tracker": {
+        "id": 9,
+        "name": "Story"
+      },
+      "status": {
+        "id": 1,
+        "name": "New"
+      },
+      "priority": {
+        "id": 1,
+        "name": "Low"
+      },
+      "author": {
+        "id": 102,
+        "name": "Mike"
+      },
+      "assigned_to": {
+        "id": 1458,
+        "name": "Edward"
+      },
+      "fixed_version": {
+        "id": 1257,
+        "name": "Backlog"
+      },
+      "subject": "Lorem Ipsum",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
+      "start_date": "2017-04-13",
+      "done_ratio": 0,
+      "created_on": "2017-04-15T20:32:40Z",
+      "updated_on": "2017-04-15T20:32:40Z"
+    }
+  ],
+  "total_count": 112,
+  "offset": 0,
+  "limit": 25
+}

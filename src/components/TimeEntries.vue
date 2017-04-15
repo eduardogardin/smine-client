@@ -2,13 +2,6 @@
   <md-table-card>
     <md-toolbar>
       <h1 class="md-title">Time entries</h1>
-      <md-button class="md-icon-button">
-        <md-icon>filter_list</md-icon>
-      </md-button>
-
-      <md-button class="md-icon-button">
-        <md-icon>search</md-icon>
-      </md-button>
     </md-toolbar>
 
     <md-table>
@@ -30,16 +23,6 @@
         </md-table-row>
       </md-table-body>
     </md-table>
-    <md-table-pagination
-      md-size="5"
-      md-total="10"
-      md-page="1"
-      md-label="Rows"
-      md-separator="of"
-      :md-page-options="[5, 10, 25, 50]"
-      @pagination="onPagination">
-    </md-table-pagination>
-
   </md-table-card>
 </template>
 
