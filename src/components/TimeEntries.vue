@@ -33,16 +33,28 @@
         </md-table-body>
       </md-table>
     </md-table-card>
+
+    <md-snackbar :md-position="snackConfig.vertical + ' ' + snackConfig.horizontal" ref="snackbar" :md-duration="snackConfig.duration">
+      <span>Could not retrieve Time entries from server</span>
+      <md-button class="md-accent" md-theme="light-blue" @click.native="$refs.snackbar.close()">Retry</md-button>
+    </md-snackbar>
   </md-layout>
 </template>
 
 <script>
   import moment from 'moment'
 
+  const snackbarConfig = {
+    vertical: 'bottom',
+    horizontal: 'center',
+    duration: 4000
+  }
+
   export default {
     data () {
       return {
-        entries: []
+        entries: [],
+        snackConfig: snackbarConfig
       }
     },
     created: function () {
@@ -55,6 +67,7 @@
         }
         const errorCallback = err => {
           console.log(err)
+          this.$refs.snackbar.open()
         }
 
         this.$http.get('/api/time_entries.json?project_id=my_project')
