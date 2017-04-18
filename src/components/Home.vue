@@ -23,6 +23,25 @@
     <br/>
 
     <md-layout md-align="center" md-row md-gutter>
+
+      <md-card>
+        <md-card-area>
+          <md-card-header>
+            <div class="md-title">Board</div>
+            <div class="md-subhead">All tickets with "doing" status, and all team members without assigment</div>
+          </md-card-header></md-card-area>
+
+        <md-card-actions>
+          <md-button>
+            <router-link to="/board">Go to board!</router-link>
+          </md-button>
+        </md-card-actions>
+      </md-card>
+    </md-layout>
+
+    <br/>
+
+    <md-layout md-align="center" md-row md-gutter>
       <md-card>
         <md-card-area>
           <md-card-header>

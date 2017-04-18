@@ -1,6 +1,18 @@
 <template>
-  <h2>Board page</h2>
+  <md-layout>
+  </md-layout>
 </template>
 
 <script>
+  export default {
+
+    data () {
+      return {
+        doing: [],
+        noAssignments: []
+      }
+    },
+    methods: {
+    }
+  }
 </script>
