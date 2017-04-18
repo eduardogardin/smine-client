@@ -1,6 +1,9 @@
 <template>
-  <md-layout md-gutter>
-    <md-layout md-flex="30" md-flex-offset="25">
+  <md-layout md-column md-gutter>
+
+    <br/>
+
+    <md-layout md-align="center" md-flex="100" md-row md-gutter>
       <md-card>
         <md-card-area>
           <md-card-header>
@@ -17,7 +20,9 @@
       </md-card>
     </md-layout>
 
-    <md-layout md-flex="30">
+    <br/>
+
+    <md-layout md-align="center" md-row md-gutter>
       <md-card>
         <md-card-area>
           <md-card-header>
