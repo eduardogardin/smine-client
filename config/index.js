@@ -29,7 +29,7 @@ module.exports = {
     assetsPublicPath: '/',
     proxyTable: {
       '/api': {
-        target: 'https://myredmine.domain.com',
+        target: 'https://myproject.domain.com',
         changeOrigin: true,
         pathRewrite: {
           '^/api': ''

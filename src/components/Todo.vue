@@ -32,7 +32,7 @@
             <md-table-cell>{{issue.project.name}}</md-table-cell>
             <md-table-cell>{{issue.tracker.name}}</md-table-cell>
             <md-table-cell>{{issue.author.name}}</md-table-cell>
-            <md-table-cell>{{issue.fixed_version.name}}</md-table-cell>
+            <md-table-cell>{{issue.fixed_version}}</md-table-cell>
             <md-table-cell>{{issue.created_on | moment}}</md-table-cell>
             <md-table-cell>{{issue.subject}}</md-table-cell>
           </md-table-row>
@@ -64,7 +64,7 @@
           console.log(err)
         }
 
-        this.$http.get('/api/issues.json?assingned_to_id=me')
+        this.$http.get('/api/issues.json?assigned_to_id=me&project_id=juggernaut')
         .then(onSuccessCallback, onErrorCallback)
       },
       moment (date) {
