@@ -71,6 +71,6 @@
         this.$http.get('/api/issues.json?assigned_to_id=me&project_id=juggernaut&status_id=2')
         .then(response => { this.doingList = response.body.issues }, console.log)
       }
-    }    
+    }
   }
 </script>

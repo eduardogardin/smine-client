@@ -1,13 +1,21 @@
 <template>
-  <md-layout md-column md-gutter>
+  <div class="container">
+    <md-toolbar class="md-dense">
+      <md-button class="md-icon-button">
+        <md-icon>menu</md-icon>
+      </md-button>
 
-    <br/>
+      <h2 class="md-title" style="flex: 1">Welcome to Smine Client</h2>
 
-    <md-layout md-align="center" md-flex="100" md-row md-gutter>
-      <md-card>
+      <md-button class="md-icon-button">
+        <md-icon>favorite</md-icon>
+      </md-button>      
+    </md-toolbar>
+
+    <md-card md-flex-small="50" md-align="center" md-with-hover>
         <md-card-area>
           <md-card-header>
-            <div class="md-title">Daily time entries</div>
+            <div class="md-title">Time entries</div>
             <div class="md-subhead">Here you'll be able to know who is registering your spent time</div>
           </md-card-header>
         </md-card-area>
@@ -18,13 +26,8 @@
           </md-button>
         </md-card-actions>
       </md-card>
-    </md-layout>
 
-    <br/>
-
-    <md-layout md-align="center" md-row md-gutter>
-
-      <md-card>
+      <md-card md-with-hover>
         <md-card-area>
           <md-card-header>
             <div class="md-title">Board</div>
@@ -37,12 +40,8 @@
           </md-button>
         </md-card-actions>
       </md-card>
-    </md-layout>
 
-    <br/>
-
-    <md-layout md-align="center" md-row md-gutter>
-      <md-card>
+      <md-card md-with-hover>
         <md-card-area>
           <md-card-header>
             <div class="md-title">TODO</div>
@@ -56,6 +55,5 @@
           </md-button>
         </md-card-actions>
       </md-card>
-    </md-layout>
-  </md-layout>
+  </div>
 </template>
